@@ -1,0 +1,79 @@
+Make,Vehicle class,Model
+Acura,Sport utility vehicle: Standard,2
+Audi,Compact,6
+Audi,Full-size,4
+Audi,Sport utility vehicle: Small,9
+Audi,Sport utility vehicle: Standard,36
+Audi,Subcompact,6
+BMW,Compact,31
+BMW,Full-size,18
+BMW,Sport utility vehicle: Standard,38
+BMW,Subcompact,30
+Cadillac,Sport utility vehicle: Small,16
+Cadillac,Sport utility vehicle: Standard,10
+Cadillac,Station wagon: Mid-size,2
+Chevrolet,Pickup truck: Standard,15
+Chevrolet,Sport utility vehicle: Small,19
+Chevrolet,Station wagon: Small,9
+Chevrolet,Subcompact,3
+Dodge,Full-size,17
+FIAT,Minicompact,3
+Fisker,Sport utility vehicle: Standard,8
+Ford,Compact,6
+Ford,Pickup truck: Standard,20
+Ford,Sport utility vehicle: Small,27
+Ford,Station wagon: Small,6
+Ford ,Sport utility vehicle: Small,6
+GMC,Pickup truck: Standard,12
+GMC,Sport utility vehicle: Standard,8
+Genesis,Full-size,5
+Genesis,Sport utility vehicle: Small,10
+Honda,Sport utility vehicle: Standard,3
+Hyundai,Full-size,6
+Hyundai,Mid-size,17
+Hyundai,Sport utility vehicle: Small,22
+Hyundai,Sport utility vehicle: Standard,3
+Jaguar,Sport utility vehicle: Small,5
+Jeep,Sport utility vehicle: Standard,6
+Kia,Sport utility vehicle: Small,11
+Kia,Sport utility vehicle: Standard,13
+Kia,Station wagon: Small,26
+Lexus,Sport utility vehicle: Small,10
+Lucid,Full-size,33
+MINI,Sport utility vehicle: Small,4
+MINI,Subcompact,5
+Mazda,Mid-size,3
+Mercedes-Benz,Compact,1
+Mercedes-Benz,Full-size,12
+Mercedes-Benz,Mid-size,11
+Mercedes-Benz,Sport utility vehicle: Small,7
+Mercedes-Benz,Sport utility vehicle: Standard,21
+Mercedes-Benz,Station wagon: Mid-size,2
+Mitsubishi,Subcompact,6
+Nissan,Mid-size,24
+Nissan,Station wagon: Small,19
+Polestar,Mid-size,17
+Polestar,Sport utility vehicle: Standard,18
+Porsche,Compact,33
+Porsche,Mid-size,17
+Porsche,Sport utility vehicle: Small,6
+Rivian,Pickup truck: Standard,80
+Rivian,Sport utility vehicle: Standard,80
+Rolls-Royce,Compact,12
+Subaru,Sport utility vehicle: Small,2
+Tesla,Full-size,71
+Tesla,Mid-size,39
+Tesla,Pickup truck: Standard,2
+Tesla,Sport utility vehicle: Small,27
+Tesla,Sport utility vehicle: Standard,37
+Tesla ,Full-size,1
+Tesla ,Sport utility vehicle: Standard,7
+Toyota,Sport utility vehicle: Small,10
+VinFast,Sport utility vehicle: Standard,17
+Volkswagen,Compact,4
+Volkswagen,Minivan,4
+Volkswagen,Sport utility vehicle: Small,21
+Volvo,Sport utility vehicle: Small,24
+Volvo,Sport utility vehicle: Standard,4
+smart,Two-seater,10
+smart EQ,Two-seater,2
