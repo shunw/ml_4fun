@@ -44,11 +44,12 @@ def learn_about_evdata(fl_name:str):
     '''
 
 if __name__ == '__main__':
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-f', '--file', help='csv file to parse', required = True)
+    # import argparse
+    # parser = argparse.ArgumentParser()
+    # parser.add_argument('-f', '--file', help='csv file to parse', required = True)
     
-    args = parser.parse_args()
-    csv_fl = args.file
-    
+    # args = parser.parse_args()
+    # csv_fl = args.file
+    csv_fl = 'data/ev_data.csv'
+    rough_pic(csv_fl)
     learn_about_evdata(csv_fl)
