@@ -31,22 +31,37 @@ def about_num_data(fl_name:str):
     
     df = pd.read_csv(fl_name)
     year = 'Model year'
-    m_kw = 'Motor (kW)'
+    m_kw = 'Motor (kW)' # the power of the motor
     rech_t = 'Recharge time (h)'
-    energy_eff = 'Energy Efficiency (km/kWh)'
-    spd = 'spd_km/h'
+    energy_eff = 'Energy Efficiency (km/kWh)' # with every unit of battery capacity, how much km can run. this is to check battery turn out efficiency, 
+    spd = 'spd_km/h' # the max spd to run with the motor
+    v_class = 'Vehicle class'
     df[spd] = df[energy_eff]*df[m_kw]
+    rech_vs_power = 'recharge_vs_power' # the battery capacity should match to the power, so this parameter is to link the battery with the motor power
+    df[rech_vs_power] = df[rech_t]/df[m_kw]
     
-    plt.scatter(x = df[spd], y = df[rech_t], alpha = .3, c = df[year], cmap = 'viridis')
-    plt.xlabel(f'{spd}')
-    plt.ylabel(f'{rech_t}')
+    
+    # # this is to check the motor power vs charging hous/ power, with the vehicle class as the color shown
+    # unique_classes = df[v_class].unique()
+    # cm = plt.get_cmap('tab20')
+    
+    # for i, (name, group) in enumerate(df.groupby(v_class)):
+    #     plt.scatter(x=group[m_kw], y=group[rech_vs_power], alpha=0.2, label=name, color=cm(i % 20))
+
+    # plt.xlabel(f'{m_kw}')
+    # plt.ylabel(f'{rech_vs_power}')
+    # plt.legend(title=v_class, bbox_to_anchor=(1.05, 1), loc='upper left')
+    # plt.tight_layout()
+    # plt.show()
+    
+    # this is to check the motor power vs recharging/power, and shown the year.
+    plt.scatter(x = df[m_kw], y = df[rech_vs_power], c = df[year], cmap = 'viridis', alpha = .2) # , c = df[year], cmap = 'viridis'
+    plt.xlabel(f'{m_kw}')
+    plt.ylabel(f'{rech_vs_power}')
     plt.colorbar(label=year)
     plt.show()
     '''
-    checked with the year vs recharge_time. 
-        - no strong relationship
-    checked with spd vs recharge_time
-        - some relationship. may also need to add year into there, to check if some higher spd but the recharging time is not higher
+    
     what will be my purpose for this ev data? Since it has 
     ??? different countries car will have different efficiency? or charging time? --- previous we say that japan's car save the oil/ use the efficiency the most. Is now same thing? 
         if so, need to category the make with different countries.
