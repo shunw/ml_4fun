@@ -9,3 +9,11 @@ dependencies = [
     "pandas>=2.3.3",
     "scipy>=1.17.0",
 ]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]
+
+[tool.uv]
+package = true

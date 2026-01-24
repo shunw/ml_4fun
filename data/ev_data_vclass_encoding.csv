@@ -1,0 +1,13 @@
+Rank,Vehicle Class,Logic / Feature Relation
+1,Two-seater,"Smallest cabin, usually shortest wheelbase."
+2,Minicompact,Tiny interior volume (under 85 cu ft).
+3,Subcompact,Small interior (85–99 cu ft).
+4,Compact,Standard small car (100–109 cu ft).
+5,Station wagon: Small,Compact footprint but with extended cargo.
+6,Sport utility vehicle: Small,"Higher ground clearance, compact length."
+7,Mid-size,"The ""average"" passenger car size."
+8,Station wagon: Mid-size,Larger cargo capacity than standard mid-size.
+9,Full-size,"Largest sedans, high interior volume."
+10,Sport utility vehicle: Standard,"Large frame, high capacity."
+11,Minivan,Maximum passenger/interior volume.
+12,Pickup truck: Standard,Largest footprint and highest towing/utility.
